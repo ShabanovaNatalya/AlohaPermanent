@@ -1,7 +1,28 @@
-.button {
-  padding: 20px;
-  background-color: transparent;
+@font-face {
+  font-family: "GreatVibes";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
-::placeholder {
-color: gray;
-} 
+
+@font-face {
+  font-family: "NunitoSans";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/NunitoSans-VariableFont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Forum-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "NunitoSans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #F8FDE8;
+
+}

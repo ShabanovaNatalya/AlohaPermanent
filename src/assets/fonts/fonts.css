@@ -1,0 +1,20 @@
+@font-face {
+  src: url(./GreatVibes-Regular.ttf) format("ttf");
+  font-family: "GreatVibes";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(./NunitoSans-VariableFont.ttf) format("ttf");
+  font-family: "NunitoSans";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(./Forum-Regular.ttf) format("ttf");
+  font-family: "Forum";
+  font-weight: normal;
+  font-display: swap;
+}

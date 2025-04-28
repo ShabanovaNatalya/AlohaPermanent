@@ -1,0 +1,1 @@
+export { FaQ } from './faq';

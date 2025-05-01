@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "GreatVibes";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/fonts/GreatVibes-Regular.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "NunitoSans";
   font-style: normal;
   font-weight: 200;
@@ -20,9 +13,9 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
+  max-width: 1440px;
   font-family: "NunitoSans", Arial, sans-serif;
   color: rgb(0, 0, 0);
-  background-color: #F8FDE8;
-
+  background-color: #ffffff;
 }

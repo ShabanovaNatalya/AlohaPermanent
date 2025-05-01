@@ -13,12 +13,9 @@ export const AppHeader: FC<TAppHeaderProps> = () => {
             ALOHA<br></br>PERMANENT
           </h1>
           <h2 className={styles.subtitle}>SCHOOL & STUDIO</h2>
-          {/* <p className={styles.description}>
-            Эстетика. Профессионализм. Забота.
-          </p> */}
         </div>
 
-        <nav className={`${styles.menu} p-4`}>
+        <nav className={`${styles.menu}`}>
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -73,8 +70,8 @@ export const AppHeader: FC<TAppHeaderProps> = () => {
             to="/contacts"
             className={({ isActive }) =>
               isActive
-                ? `${styles.link} ${styles.link_active}`
-                : ` ${styles.link} `
+                ? `${styles.link} ${styles.contacts} ${styles.link_active}`
+                : ` ${styles.link} ${styles.contacts}`
             }
           >
             {({ isActive }) => <p className="">Контакты</p>}

@@ -1,9 +1,8 @@
-.header {
+.footer {
   display: flex;
   justify-content: space-between;
   margin-inline: 30px;
-  border-bottom: solid 1px black;
-
+  border-top: solid 1px black;
 }
 
 .logo {
@@ -13,11 +12,11 @@
 .heading {
   font-family: "Forum";
   font-weight: normal;
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 12px;
   margin-block: 0;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 5px;
 }
 
@@ -25,46 +24,34 @@
   font-family: "NunitoSans";
   margin-block: 0;
   text-align: center;
-  font-size: 7px;
+  font-size: 5px;
   font-weight: 600;
   letter-spacing: 6px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
-.description {
-  font-family: "GreatVibes";
-  margin-block: 0;
-  text-align: center;
-  font-size: 24px;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  align-content: center;
-  padding-top: 10px;
-}
-
-.link {
-  display: flex;
+a {
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   color: rgb(0, 0, 0);
-}
-
-.contacts {
- background-color: black;
- border-radius: 16px;
- color: white;
- padding-inline: 12px;
- padding-block: 8px;
 }
 
 .link_active {
   font-weight: 600;
 }
 
+.rating {
+  width: 150px;
+  height: 50px;
+  border-width: 0;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
 p {
   margin: 0px;
 }

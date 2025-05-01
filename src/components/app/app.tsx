@@ -19,6 +19,7 @@ import {
   useMatch
 } from 'react-router-dom';
 import { AppHeader } from './../app-header/index';
+import { AppFooter } from '../app-footer/index';
 // import { ModalUI } from '@ui';
 // import { useDispatch } from '../../services/store';
 // import { loadIngredientList } from '../../services/slices/ingredients/ingredientSlice';
@@ -47,6 +48,7 @@ function App() {
           <Route path='/contacts' element={<Contacts/>} />
           <Route path='*' element={<NotFound404/>}/>
         </Routes>
+        <AppFooter/>
       </div>
     </>
   );

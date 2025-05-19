@@ -1,0 +1,8 @@
+.item {
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  display: flex;
+    background-color: greenyellow;
+}

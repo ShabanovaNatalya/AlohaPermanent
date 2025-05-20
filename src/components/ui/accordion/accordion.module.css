@@ -1,8 +1,16 @@
 .item {
   background-color: rgb(255, 255, 255);
+  max-width: 500px;
 }
 
 .title {
   display: flex;
-    background-color: greenyellow;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-size: 18px;
+  font-family: NunitoSans, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
 }

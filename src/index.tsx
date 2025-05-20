@@ -3,6 +3,8 @@ import * as ReactDOMClient from 'react-dom/client';
 import App from './components/app/app';
 import { BrowserRouter } from 'react-router-dom';
 import './index.module.scss';
+import store from './services/slices/store';
+import { Provider } from 'react-redux';
 // import { Provider } from 'react-redux';
 // import store from './services/store';
 
@@ -11,10 +13,10 @@ const root = ReactDOMClient.createRoot(container!);
 
 root.render(
   <React.StrictMode>
-    {/* <Provider store={store}> */}
+    <Provider store={store}>
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    {/* </Provider> */}
+    </Provider>
   </React.StrictMode>
 );

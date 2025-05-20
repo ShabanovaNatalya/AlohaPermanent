@@ -1,7 +1,5 @@
-import { TCategory } from "src/utils/types";
-
 export type MastersCardProps = {
-  category: TCategory;
+  category: string;
   name: string;
   photo: string;
   experience: string;

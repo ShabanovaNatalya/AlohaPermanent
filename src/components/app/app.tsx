@@ -8,6 +8,7 @@ import {
   School,
   Services,
   NotFound404,
+  FaQ,
 } from './../../pages/index';
 
 import styles from './app.module.css';
@@ -46,6 +47,7 @@ function App() {
           <Route path='/services' element={<Services/>} />
           <Route path='/feedback' element={<Feedback/>} />
           <Route path='/contacts' element={<Contacts/>} />
+          <Route path='/faq' element={<FaQ/>} />
           <Route path='*' element={<NotFound404/>}/>
         </Routes>
         <AppFooter/>

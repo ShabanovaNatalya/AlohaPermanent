@@ -1,7 +1,5 @@
-export type TCategory= 'Мастер-преподаватель и основатель школы-студии' | 'Топ-мастер' | 'Ведущий-мастер'| 'Мастер';
-
 export type TMasters = {
-  category: TCategory;
+  category: string;
   name: string;
   photo: string;
   experience: string;
@@ -17,3 +15,7 @@ export type TServices = {
   price: number;
 };
 
+export type TFaqList = {
+  title: string;
+  content: string;
+};

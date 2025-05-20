@@ -67,6 +67,16 @@ export const AppHeader: FC<TAppHeaderProps> = () => {
             {({ isActive }) => <p className="">Отзывы</p>}
           </NavLink>
           <NavLink
+            to="/faq"
+            className={({ isActive }) =>
+              isActive
+                ? `${styles.link} ${styles.link_active}`
+                : ` ${styles.link} `
+            }
+          >
+            {({ isActive }) => <p className="">FAQ</p>}
+          </NavLink>
+          <NavLink
             to="/contacts"
             className={({ isActive }) =>
               isActive

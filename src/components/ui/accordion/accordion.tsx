@@ -11,10 +11,10 @@ export const AccordionUI: FC<TAccordionUIProps> = memo(({ title, content }) => {
     <>
       <div className={styles.item}>
         <div className={styles.title} onClick={() => setIsActive(!isActive)}>
-          <div>{title}</div>
-          <div>{isActive ? "-" : "+"}</div>
+          <h3 className={styles.title}>{title}</h3>
+          <div className={styles.btn}>{isActive ? "-" : "+"}</div>
         </div>
-        {isActive && <div className={styles.content}>{content}</div>}
+        {isActive && <p className={styles.content}>{content}</p>}
       </div>
     </>
   );

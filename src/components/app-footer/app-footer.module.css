@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-inline: 30px;
   border-top: solid 1px black;
 }
 

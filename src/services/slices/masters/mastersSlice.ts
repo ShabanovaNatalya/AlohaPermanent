@@ -9,7 +9,7 @@ const Masters = [
   {
     category: "Мастер-преподаватель и основатель школы-студии",
     name: "Алёна Децюк",
-    photo: "string",
+    photo: "/images/masterAD.png",
     experience: "Опыт в профессии более 4-ех лет",
     achievements: [
       "Участница самой крупной всемирной конференции «Эволюшен 2023»",
@@ -23,7 +23,7 @@ const Masters = [
   {
     category: "Ведущий-мастер",
     name: "Анна",
-    photo: "string",
+    photo: "/images/masterAD.png",
     experience: "Опыт в профессии ....",
     achievements: [
       "Участница самой крупной всемирной конференции «Эволюшен 2023»",
@@ -37,9 +37,9 @@ const Masters = [
   {
     category: "Мастер",
     name: "Эльвира",
-    photo: "string",
+    photo: "/images/masterAD.png",
     experience: "Опыт в профессии ....",
-    achievements: ["- Достижения"],
+    achievements: ["Достижения"],
     quote:
       "«Для меня каждая процедура — как создание маленького шедевра. Я работаю так, чтобы вы чувствовали себя уверенно и красиво, даже проснувшись среди ночи»",
   },

@@ -1,15 +1,31 @@
-const path = require("path"); //для того чтобы превратить относительный путь в абсолютный, мы будем использовать пакет path
+const path = require("path");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
   devtool: "eval-source-map",
   devServer: {
-    static: path.resolve(__dirname, "./dist"), // путь, куда "смотрит" режим разработчика
-    compress: true, // это ускорит загрузку в режиме разработки
-    port: 8080, // порт, чтобы открывать сайт по адресу localhost:8080, но можно поменять порт
-    open: true, // сайт будет открываться сам при запуске npm run dev
+    static: {
+      directory: path.join(__dirname, "../public"),
+    },
+    compress: true,
+    port: 8080,
+    open: true,
     hot: true,
   },
-  plugins: [new ReactRefreshWebpackPlugin()],
+  plugins: [
+    new ReactRefreshWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.join(__dirname, "../public"),
+          to: path.join(__dirname, "../dist"),
+          globOptions: {
+            ignore: ["**/index.html"], 
+          },
+        },
+      ],
+    }),
+  ],
 };

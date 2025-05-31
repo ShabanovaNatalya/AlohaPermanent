@@ -6,13 +6,20 @@ export const MastersCard: FC<MastersCardProps> = memo(
   ({ name, category, experience, photo, achievements, quote }) => {
     return (
       <div className={styles.content}>
-        <img className={styles.img} alt="фотография мастера" src={photo} />
-        <div>
-          <h3 className="text text_type_main-medium mt-2 mb-4">{name}</h3>
-          <p className={`text mb-2 ${styles.text}`}>{category}</p>
-          <p className={`text mb-2 ${styles.text}`}>{experience}</p>
-          <p className={`text mb-2 ${styles.text}`}>{achievements}</p>
-          <p className={`text mb-2 ${styles.text}`}>{quote}</p>
+        <img
+          className={styles.img}
+          alt="Фотография мастера"
+          src="/images/masterAD.png"
+        />
+        <div className={styles.text}>
+          <h3>{name}</h3>
+
+          <p className={styles.category}>{category}</p>
+          <p className={styles.experience}>{experience}</p>
+          <p className={styles.achievements}>{achievements}</p>
+
+          <p className={styles.quote}>{quote}</p>
+          <button> Страница мастера </button>
         </div>
       </div>
     );

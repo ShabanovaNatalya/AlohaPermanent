@@ -18,7 +18,6 @@ export const MastersCard: FC<MastersCardProps> = memo(
                 <li key={index}> {item}</li>
               ))}
             </ul>
-            <p className={styles.achievements}>{achievements}</p>
             <p className={styles.quote}>{quote}</p>
           </div>
           <button> Страница мастера </button>

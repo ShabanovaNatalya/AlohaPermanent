@@ -35,7 +35,10 @@ export const AppFooter: FC<TAppFooterProps> = () => {
         <div>
           <ul>
             <li>
-              <a href="https://www.instagram.com/aloha_permanent" target="_blank">
+              <a
+                href="https://www.instagram.com/aloha_permanent"
+                target="_blank"
+              >
                 <img src={logoIG} alt="instagram" />
               </a>
             </li>
@@ -55,6 +58,9 @@ export const AppFooter: FC<TAppFooterProps> = () => {
           </ul>
         </div>
       </footer>
+      <div>
+        © 2025 ИП Децюк Алёна Юрьевна ИНН 772074862573 ОГРНИП 323774600366742
+      </div>
     </>
   );
 };

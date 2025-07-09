@@ -10,7 +10,6 @@ export const Masters: FC = () => {
     <>
       <div className={styles.masters}>
         <h3 className={styles.h}>Мастера перманентного макияжа</h3>
-
         {mastersList.map((item, index) => (
           <MastersCard
             name={item.name}

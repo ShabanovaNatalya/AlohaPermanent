@@ -1,0 +1,19 @@
+.img {
+  width: 100%;
+}
+
+.content {
+  font-family: "NunitoSans";
+  display: grid;
+  margin-inline: auto;
+  gap: 10px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: 5px 5px 7px -5px rgba(124, 124, 124, 0.38);
+}
+
+.info {
+  height: 100%;
+}

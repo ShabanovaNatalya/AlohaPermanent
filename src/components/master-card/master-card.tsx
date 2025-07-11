@@ -10,10 +10,9 @@ export const MastersCard: FC<MastersCardProps> = memo(
         <div className={styles.info}>
           <div className={styles.text}>
             <h3>{name}</h3>
-
             <p className={styles.category}>{category}</p>
             <p className={styles.experience}>{experience}</p>
-            <ul className={styles.achievementslist}>
+            <ul className={styles.achievementsList}>
               {achievements.map((item, index) => (
                 <li key={index}> {item}</li>
               ))}

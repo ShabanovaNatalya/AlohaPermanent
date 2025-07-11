@@ -21,7 +21,7 @@ export const Masters: FC = () => {
             key={index}
           ></MastersCard>
         ))}
-        <h3 className={styles.h}>Косметолог</h3>
+        {/* <h3 className={styles.h}>Косметолог</h3> */}
       </div>
     </>
   );

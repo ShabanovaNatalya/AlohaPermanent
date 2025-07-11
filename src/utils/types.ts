@@ -9,10 +9,7 @@ export type TMasters = {
 
 export type TServices = {
   name: string;
-  category: string;
-  experience: string;
   photo: string;
-  price: number;
 };
 
 export type TFaqList = {

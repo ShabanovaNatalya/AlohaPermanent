@@ -16,10 +16,10 @@ export const AppFooter: FC<TAppFooterProps> = () => {
             Режим работы <br />
             Пн - Вс, 10:00-20:00
           </p>
-          <address>
+          <address className={styles.address}>
             <a href="tel:+79261031213">+7(926)103-12-13</a>
             <br />
-            <span>Люберцы, Октябрьский просп., 5, корп. 2</span>
+            <p>Люберцы, Октябрьский просп., 5, корп. 2</p>
           </address>
         </div>
 
@@ -58,9 +58,9 @@ export const AppFooter: FC<TAppFooterProps> = () => {
           </ul>
         </div>
       </footer>
-      <div>
+      <p>
         © 2025 ИП Децюк Алёна Юрьевна ИНН 772074862573 ОГРНИП 323774600366742
-      </div>
+      </p>
     </>
   );
 };

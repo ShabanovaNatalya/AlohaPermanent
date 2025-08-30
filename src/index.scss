@@ -4,14 +4,16 @@
       font-family: NunitoSans;
       font-style: normal;
       font-weight: 200;
-      src: url("./assets/fonts/NunitoSans-VariableFont.ttf") format("truetype");
+      font-display: swap;
+      src: url("./assets/fonts/NunitoSans-VariableFont.woff2") format("woff2");
     }
 
     @font-face {
       font-family: Forum;
       font-style: normal;
       font-weight: 400;
-      src: url("./assets/fonts/Forum-Regular.ttf") format("truetype");
+      font-display: swap;
+      src: url("./assets/fonts/Forum.woff2") format("woff2");
     }
 
     body {

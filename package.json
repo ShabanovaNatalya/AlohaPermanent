@@ -1,9 +1,12 @@
 {
   "name": "alohapermanent",
   "version": "1.0.0",
+  "homepage": "https://ShabanovaNatalya.github.io/AlohaPermanent",
   "description": "Permanent Makeup Studio website",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js --env env=prod",
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev"
@@ -22,6 +25,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
     "cssnano": "^7.0.6",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss-loader": "^8.1.1",

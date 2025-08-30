@@ -21,6 +21,9 @@ export const AppFooter: FC<TAppFooterProps> = () => {
             <br />
             <p>Люберцы, Октябрьский просп., 5, корп. 2</p>
           </address>
+          <p>
+            © 2025 ИП Децюк Алёна Юрьевна 
+          </p>
         </div>
 
         <div className={styles.logo}>
@@ -58,9 +61,6 @@ export const AppFooter: FC<TAppFooterProps> = () => {
           </ul>
         </div>
       </footer>
-      <p>
-        © 2025 ИП Децюк Алёна Юрьевна ИНН 772074862573 ОГРНИП 323774600366742
-      </p>
     </>
   );
 };

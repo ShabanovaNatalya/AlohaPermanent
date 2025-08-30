@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: solid 1px black;
+  padding-inline: 30px;
 }
 
 .logo {
@@ -15,7 +16,7 @@
   letter-spacing: 12px;
   margin-block: 0;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 5px;
 }
 
@@ -26,7 +27,7 @@
   font-size: 7px;
   font-weight: 600;
   letter-spacing: 6px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .description {
@@ -41,7 +42,7 @@
   gap: 40px;
   align-items: center;
   align-content: center;
-  padding-top: 10px;
+  padding-block: 10px;
 }
 
 .link {

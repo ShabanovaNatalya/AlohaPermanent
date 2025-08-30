@@ -16,3 +16,9 @@ export type TFaqList = {
   title: string;
   content: string;
 };
+
+export type TFeedbackList = {
+  author: string;
+  date: string;
+  content: string;
+};

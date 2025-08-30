@@ -12,3 +12,14 @@ h3 {
   margin-inline: auto;
   max-width: 914px;
 }
+
+.list {
+  margin: auto;
+  margin-block-start: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-block-end: 20px;
+}
+

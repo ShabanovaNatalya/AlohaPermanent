@@ -1,0 +1,73 @@
+.school {
+  display: grid;
+  margin-inline: auto;
+  margin-block: 20px;
+}
+
+.title {
+  margin-block: 20px;
+  font-family: "Forum";
+  font-weight: 500;
+  font-size: 36px;
+}
+.section {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.program {
+  display: flex;
+
+  gap: 16px;
+}
+
+.price {
+  display: flex;
+  gap: 16px;
+}
+
+.ul {
+  display: block;
+  margin-block: 0px;
+  padding-inline-start: 0;
+}
+
+.li {
+  display: list-item;
+  display: grid;
+  margin-block: 0px;
+  font-family: NunitoSans;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 127%;
+}
+
+.img {
+  object-fit: contain;
+  height: 100%;
+}
+
+.button {
+  margin-top: 16px;
+  width: 484px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: "Forum";
+  font-size: 20px;
+  line-height: 127%;
+  background-color: transparent;
+}
+
+.priceItem {
+  min-width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: "Forum";
+  font-size: 20px;
+  line-height: 127%;
+}

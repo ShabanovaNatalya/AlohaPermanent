@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: Forum, Arial, sans-serif;
+  max-width: 446px;
+  border: 1px black solid;
+  border-radius: 26px;
+  padding: 16px;
+}
+.author {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content {
+  font-family: NunitoSans;
+  font-size: 16px;
+  line-height: 125%;
+}

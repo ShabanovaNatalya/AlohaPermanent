@@ -1,0 +1,58 @@
+.home {
+  margin-block: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 913px;
+}
+.title {
+  margin: 0;
+  font-family: "Forum";
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  margin-bottom: 65px;
+}
+
+.subtitle {
+  margin-block-start: 0;
+  font-family: NunitoSans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 127%;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+}
+
+.ul {
+  margin-bottom: 40px;
+  display: block;
+  padding-inline-start: 0;
+}
+
+.li {
+  display: list-item;
+  font-family: NunitoSans;
+  margin-block: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 127%;
+  display: grid;
+}
+
+.button {
+  max-width: 913px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: "Forum";
+  font-size: 20px;
+  line-height: 127%;
+  background-color: transparent;
+}

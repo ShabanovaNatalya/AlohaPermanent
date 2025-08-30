@@ -1,8 +1,7 @@
-.faq {
+.contacts {
   margin-block: 20px;
   display: grid;
   margin-inline: auto;
-  max-width: 914px;
 }
 
 .title {

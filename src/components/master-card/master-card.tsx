@@ -19,7 +19,7 @@ export const MastersCard: FC<MastersCardProps> = memo(
             </ul>
             <p className={styles.quote}>{quote}</p>
           </div>
-          <button> Страница мастера </button>
+          {/* <button> Страница мастера </button> */}
         </div>
       </div>
     );

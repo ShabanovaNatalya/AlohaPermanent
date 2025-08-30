@@ -1,0 +1,36 @@
+.feedback {
+  margin-block: 20px;
+  margin-inline: auto;
+  display: grid;
+}
+
+.title {
+  font-family: "Forum";
+  font-weight: 500;
+  font-size: 36px;
+  margin-block: 20px;
+}
+
+.list {
+  margin: auto;
+  margin-block-start: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 20px;
+}
+
+.yandexTitle {
+  font-family: "Forum";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.yandexFeedback {
+  max-width: 446px;
+  border: 1px black solid;
+  border-radius: 26px;
+  padding: 16px;
+}
